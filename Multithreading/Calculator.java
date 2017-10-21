@@ -4,7 +4,7 @@ public class Calculator extends Thread {
 
 	public Calculator(double[] arr, MinMax mm) {
 		this.mm = mm;
-		this.arr = arr;
+		this.arr = arr; //Testing pull request
 	}
 
 	@Override
